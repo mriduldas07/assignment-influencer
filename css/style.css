@@ -1,0 +1,59 @@
+/* fonts   */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+/* header style  */
+   header{
+       width: 243px;
+       height: 52px;
+       margin-top: 87px;
+       margin-left: 120px;
+       font-size: 20px;
+       color: #3A3A3A;
+   }
+
+/* body style  */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common styles  */
+main{
+    ;
+}
+
+/* influencer-journey */
+
+.influencer-journey{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.influencer-detail{
+    
+    margin-left: 120px;
+}
+.influencer-detail h1{
+    font-size: 50px;
+}
+.link-button{
+    background: #E02C6D;
+    width: 196px;
+    height: 35px;
+    border-radius: 40px;
+    color: white;
+    font-size: 19px;
+    padding-top: 7px;
+    padding-left: 30px;
+}
+.button{
+    
+    text-decoration: none;
+    color: white
+}
+.fa-arrow-right{
+    margin-left: 15px;
+}
+.influencer-camera{
+    margin-left: 133px;
+}
