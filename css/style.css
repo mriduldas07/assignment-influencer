@@ -69,9 +69,6 @@ main{
 
 /*================================== product collection style ============================= */
 
-.popular-collection{
-    
-}
 .popular-collection>h2{
     font-size: 28px;
     font-weight: 600;
@@ -146,4 +143,34 @@ span{
 .see-more .fa-arrow-right{
     color:  rgba(224, 44, 109, 0.87);
 }
+
+/* ======================================footer style========  */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: black;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+}
+.fa-copyright{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social-media-icon{
+    display: flex;
+}
+.fa-facebook,.fa-twitter,.fa-linkedin{
+    font-size: 40px;
+    padding-right:20px;
+}
+
 
