@@ -33,6 +33,22 @@ main{
 .fa-arrow-right{
     margin-left: 15px;
 }
+.link-button{
+    background: #E02C6D;
+    width: 196px;
+    height: 35px;
+    border-radius: 40px;
+    color: white;
+    font-size: 19px;
+    padding-top: 7px;
+    padding-left: 30px;
+    margin-top: 5%;
+}
+.button{
+    
+    text-decoration: none;
+    color: white;
+}
 
 
 /* influencer-journey */
@@ -47,21 +63,6 @@ main{
 }
 .influencer-detail h1{
     font-size: 50px;
-}
-.link-button{
-    background: #E02C6D;
-    width: 196px;
-    height: 35px;
-    border-radius: 40px;
-    color: white;
-    font-size: 19px;
-    padding-top: 7px;
-    padding-left: 30px;
-}
-.button{
-    
-    text-decoration: none;
-    color: white;
 }
 .influencer-camera{
     margin-left: 133px;
@@ -145,6 +146,24 @@ span{
     color:  rgba(224, 44, 109, 0.87);
 }
 
+/* =====================================extra section style  =============================*/
+
+.ice-cream-parlar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.parler-detail{
+    margin-right: 10%;
+}
+.ice-cream-img{
+    margin-left: 15%; 
+}
+#ice-cream-button{
+    padding-left: 20px;
+    
+}
 /* ======================================footer style========  */
 
 .footer{
@@ -204,6 +223,18 @@ span{
         position: relative;
         left: 25px;
     }
+    .ice-cream-parlar{
+        grid-template-columns:repeat(1,1fr);
+    }
+    .ice-cream-img{
+        width: 75%;
+        position: relative;
+        right: 10%;
+    }
+    .parler-detail{
+        position: relative;
+        left: 5%;
+    }
     .footer{
         width: 125%;
     }
@@ -234,6 +265,18 @@ span{
     .product-detail{
         position: relative;
         left: 25px;
+    }
+    .ice-cream-parlar{
+        grid-template-columns:repeat(2,1fr);
+    }
+    .ice-cream-img{
+        width: 75%;
+        position: relative;
+        right: 10%;
+    }
+    .parler-detail{
+        position: relative;
+        left: 20%;
     }
     .footer{
         width: 125%;
