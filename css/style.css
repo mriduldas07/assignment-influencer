@@ -92,8 +92,20 @@ main{
     padding-left: 15px;
     padding-right: 15px;
 }
+.product h2{
+    font-size: 28px;
+    font-weight: 500;
+}
 .product-detail{
     padding-left: 14px;
+}
+.product-prize{
+    font-size: 24px;
+    width: 92px;
+    height: 36px;
+    line-height: 150%;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
 }
 .star-rating{
     display: flex;
@@ -104,4 +116,15 @@ main{
 }
 .fa-star.empty{
     color: gray;
+}
+span{
+    padding-left: 8px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5E6366;
+}
+.product-shifting{
+    font-size: 14px;
+    line-height: 143%;
+    color: #787885;
 }
