@@ -175,3 +175,38 @@ span{
 }
 
 
+/* ======================================responsive=========================================  */
+
+
+/* mobile devices */
+
+
+@media only screen and (max-width:688px) {
+   .for-query{
+       width: 100%;
+   }
+   .influencer-journey{
+      grid-template-columns: repeat(1,1fr); 
+      position: relative;
+      right: 25%; 
+   }
+   .influencer-camera{
+
+   }
+    .all-products{
+        grid-template-columns: repeat(1,1fr);
+        position: relative;
+        left: 10%; 
+    }
+    .all-products img{
+        position: relative;
+        left: 30px;
+    }
+    .product-detail{
+        position: relative;
+        left: 25px;
+    }
+    .footer{
+        width: 125%;
+    }
+}
